@@ -19,9 +19,11 @@
             android:layout_height="wrap_content">
 
 
+        <!--INICIO USUARIO-->
         <TextView
             android:id="@+id/text1"
-            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Usuario"
@@ -32,9 +34,14 @@
             android:layout_below="@id/text1"
             android:layout_width="250dp"
             android:layout_height="20dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+        <!--FIM USUARIO-->
 
 
+
+
+        <!--INICIO SENHA-->
          <TextView
                 android:id="@+id/text2"
              android:layout_below="@id/input1"
@@ -50,8 +57,37 @@
                 android:layout_width="250dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="20dp"/>
+            <!--FIM USUARIO-->
 
 
+
+
+            <!--INICIO BOTAO1-->
+            <Button
+                android:id="@+id/botao1"
+                android:layout_below="@id/input2"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="Acessar"
+                android:textSize="16dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"/>
+            <!--FIM BOTAO1-->
+
+
+
+
+            <!--INICIO BOTAO2-->
+            <Button
+                android:id="@+id/botao2"
+                android:layout_below="@id/botao1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="Criar nova conta"
+                android:textSize="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"/>
+            <!--FIM BOTAO2-->
 
 
 
