@@ -22,60 +22,122 @@
         android:textSize="30dp"
         android:layout_margin="10dp"/>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card1"
-        android:layout_below="@id/menupricipal"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        app:cardBackgroundColor="#654354"
-        android:layout_margin="28dp"/>
 
+
+
+    <!--INICIO CARD1-->
+<androidx.cardview.widget.CardView
+    android:id="@+id/card1"
+    android:layout_below="@id/menupricipal"
+    android:layout_width="130dp"
+    android:layout_height="180dp"
+    app:cardBackgroundColor="#654354"
+    android:layout_marginLeft="30dp">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src=""/>
+</androidx.cardview.widget.CardView>
+    <!--INICIO CARD1-->
+
+
+
+
+
+
+    <!--INICIO CARD2-->
     <androidx.cardview.widget.CardView
         android:id="@+id/card2"
         android:layout_toRightOf="@id/card1"
         android:layout_below="@id/menupricipal"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
         app:cardBackgroundColor="#654354"
-        android:layout_margin="28dp"/>
+        android:layout_marginLeft="50dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src=""/>
+    </androidx.cardview.widget.CardView>
+    <!--FIM CARD2-->
 
 
 
 
+
+    <!--INICIO CARD3-->
     <androidx.cardview.widget.CardView
         android:id="@+id/card3"
         android:layout_below="@id/card1"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
         app:cardBackgroundColor="#654354"
-        android:layout_margin="28dp"/>
+        android:layout_marginLeft="30dp">
 
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src=""/>
+    </androidx.cardview.widget.CardView>
+    <!--INICIO CARD3-->
+
+
+
+
+
+
+
+
+
+    <!--INICIO CARD4-->
     <androidx.cardview.widget.CardView
         android:id="@+id/card4"
         android:layout_toRightOf="@id/card3"
         android:layout_below="@id/card2"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
         app:cardBackgroundColor="#654354"
-        android:layout_margin="28dp"/>
+        android:layout_marginLeft="50dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src=""/>
+    </androidx.cardview.widget.CardView>
+    <!--INICIO CARD4-->
 
 
 
 
+
+    <!--INICIO CARD5-->
     <androidx.cardview.widget.CardView
         android:id="@+id/card5"
         android:layout_below="@id/card3"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
         app:cardBackgroundColor="#654354"
-        android:layout_margin="28dp"/>
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src=""/>
+    </androidx.cardview.widget.CardView>
+    <!--FIM CARD5-->
+
+
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card6"
         android:layout_toRightOf="@id/card5"
         android:layout_below="@id/card4"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
         app:cardBackgroundColor="#654354"
         android:layout_margin="28dp"/>
 
