@@ -35,7 +35,8 @@
             android:layout_width="250dp"
             android:layout_height="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:text="usuario"/>
         <!--FIM USUARIO-->
 
 
